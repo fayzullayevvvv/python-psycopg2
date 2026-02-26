@@ -15,7 +15,7 @@ conn = psycopg2.connect(
 cur = conn.cursor()
 
 # Execute a query
-cur.execute("SELECT * FROM users")
+cur.execute("SELECT * FROM library")
 
 # Retrieve query results
 records = cur.fetchall()
